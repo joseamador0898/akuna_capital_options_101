@@ -1,200 +1,272 @@
 # Quiz 2
+# Options Questions – Transcription & Solutions
+
 ## Question 1
-A put option on a future is a contract that:
-- A. gives the option owner the right to buy...
-- B. pays out the difference...
-- C. gives the option owner the right to buy...
-- D. settles into cash...
-- E. gives the option owner the right to sell...
-- F. none of the above
+**Question:**  
+A put option on a future is a contract that:  
+A: gives the option owner the right to buy the future at the strike price.  
+B: pays out the difference between the strike and the current futures price.  
+C: gives the option owner the right to buy the physical asset that the future is based on.  
+D: settles into cash and gets automatically credited/debited from each persons account.  
+E: gives the option owner the right to sell the future at the strike price.  
+F: none of the above  
 
 **Answer:** E  
-**Explanation:** A put on a future gives the holder the right to sell the futures contract at the strike.
+**Explanation:**  
+A put option on a future gives its owner the right (but not the obligation) to sell the underlying futures contract at a specified strike price.
 
 ---
 
 ## Question 2
-The most profit the buyer of a call can make is ____, while the most they can lose is ____.
-- A. the price they paid for the call; ...
-- B. the price they paid for the call; ...
-- C. ...
-- D. ...
-- E. an infinite amount; the price of the option
-- F. ...
+**Question:**  
+The most profit the buyer of a call can make is **_____**, while the most they can lose is **_____**.  
+A: the price they paid for the call; the price of the put  
+B: the price they paid for the call; the price of the underlying  
+C: the price they paid for the option; an infinite amount  
+D: the price they paid for the option; the difference between the 0 and the future  
+E: an infinite amount; the price of the option  
+F: the difference between the strike and underlying; the price of the call  
 
 **Answer:** E  
-**Explanation:** A call buyer’s profit is unlimited; max loss is the premium.
+**Explanation:**  
+A call option buyer’s profit is theoretically unlimited if the underlying price continues rising, while the maximum loss is limited to the premium paid for the option.
 
 ---
 
 ## Question 3
-A straddle is made up of:
-- A. a call minus a future
-- B. ...
-- C. a strike plus a put on the same strike
-- D. ...
-- E. ...
-- F. ...
-- G. ...
+**Question:**  
+A straddle is made up of:  
+A: a call minus a future  
+B: a call minus a call on a higher strike  
+C: a strike plus a put on the same strike  
+D: a call on a strike minus a put on that same strike  
+E: one call strike minus 2 calls on the next strike plus a call on the 3rd strike  
+F: a lower strike call plus a higher strike put  
+G: a lower strike put plus a higher strike call  
 
-**Answer:** C (interpreted as one call + one put on the same strike)
+**Answer:** C  
+**Explanation:**  
+A straddle is constructed by buying one call and one put at the same strike price (and same expiration), which provides a payoff that benefits from large moves in either direction.
 
-...
+---
 
 ## Question 4
-The extrinsic value of an option is usually also known as ____.
-- A. intrinsic value; ITM
-- B. intrinsic value; OTM
-- C. time premium; ITM
-- D. time premium; OTM
+**Question:**  
+The extrinsic value of an option is usually also known as **_____**. **_____** option prices are comprised entirely of extrinsic value.  
+A: intrinsic value; In-the-money (ITM)  
+B: intrinsic value; Out-of-the-money (OTM)  
+C: time premium; In-the-money (ITM)  
+D: time premium; Out-of-the-money (OTM)  
 
-**Answer:** D
+**Answer:** D  
+**Explanation:**  
+Extrinsic value is also called the time premium. Out-of-the-money options have no intrinsic value, so their entire price is made up of extrinsic value.
 
-...
+---
 
 ## Question 5
-If we bought the 60 strike call for \$2 and sold the 70 strike call for \$1...
-- A. \$1
-- B. \$2
-- C. \$3
-- D. \$8
-- E. \$9
-- F. \$10
+**Question:**  
+If we bought the 60 strike call for \$2.00 and sold the 70 strike call at \$1.00, what is the most profit we can make from this transaction? (assume no other trades)  
+A: \$1.00  
+B: \$2.00  
+C: \$3.00  
+D: \$8.00  
+E: \$9.00  
+F: \$10.00  
 
-**Answer:** E (\$9)
+**Answer:** E  
+**Explanation:**  
+This is a bull call spread. The net cost is \$2.00 - \$1.00 = \$1.00. The maximum payoff of a 60–70 spread is \$10.00 (the difference between strikes). Thus, maximum profit = \$10.00 - \$1.00 = \$9.00.
 
-...
+---
 
 ## Question 6
-Put-Call Parity equation is:
-- A. C+P = U+K
-- B. C-P = U-K
-- C. ...
-- D. ...
-- E. none
-- F. I forgot
+**Question:**  
+The simple form of the Put-Call-Parity Equation is defined as:  
+A: C + P = U + K  
+B: C - P = U - K  
+C: C - P = K - U  
+D: U + K = C + P - C  
+E: none of the above  
+F: I have no clue, I already forgot  
 
-**Answer:** B
+*(Where C = Call price, P = Put price, U = Underlying price (or futures price if zero interest), K = Strike.)*
 
-...
+**Answer:** B  
+**Explanation:**  
+Under zero interest (or cost-of-carry) conditions, the put-call parity for futures is given by:  
+  C - P = U - K
+
+---
 
 ## Question 7
-The reason you can sell an option you don’t own is because:
-- A. ...
-- B. ...
-- C. ...
-- D. an options contract is created...
-- E. ...
+**Question:**  
+The reason you can sell an option you don’t own is because:  
+A: the buyer probably won’t exercise it because it’s OTM  
+B: you can borrow that option from another person when you sell it  
+C: the clearing houses normally handle the back end mechanics  
+D: an options contract is created when a buyer and seller transact (trade)  
+E: you can “sell it short” and buy it back if needed at a later date  
 
-**Answer:** D
+**Answer:** D  
+**Explanation:**  
+An option contract is created when a seller and a buyer agree to a trade. The clearinghouse guarantees the contract, allowing you to sell an option you do not already own.
 
-...
+---
 
 ## Question 8
-The general term for the contract on which an option is based is:
-- A. basis
-- B. forward
-- C. underlying
-- D. derivative
-- E. futures
-- F. none
+**Question:**  
+The general term for the contract on which an option is based (and expires into) is called the:  
+A: basis contract  
+B: forward contract  
+C: underlying contract  
+D: derivative contract  
+E: futures contract  
+F: none of the above  
 
-**Answer:** C
+**Answer:** C  
+**Explanation:**  
+The contract on which an option is based is generally called the “underlying contract.”
 
-...
+---
 
 ## Question 9
-A producer of corn would profit if price goes ____ due to ____:
-- A. up; increase in demand
-- B. ...
-- C. ...
-- D. ...
-- E. ...
+**Question:**  
+A producer (farmer) of corn would profit if the price of corn goes **_____** in value. This could be caused by an **_____**.  
+A: up; increase in demand  
+B: down; increase in demand  
+C: up; increase in supply  
+D: down; increase in supply  
+E: down; shortage of corn  
 
-**Answer:** A
+**Answer:** A  
+**Explanation:**  
+A corn producer benefits from an increase in corn prices, which is typically due to an increase in demand.
 
-...
+---
 
 ## Question 10
-Using Put-Call-Parity, find the put value:
-- Future = 100.80
-- Strike = 100
-- Call = 6.90
-- Put = ?
+**Question:**  
+Using the Put-call-parity equation, and assuming zero interest rates, find the put value below based on the characteristics shown:  
+- Future Price = 100.80  
+- Strike = 100  
+- Call value = 6.90  
+- Put value = ???  
 
-A. 0.80  
-B. 6.90  
-C. 6.10  
-D. 2.70  
-E. 7.70  
-F. 9.50  
-G. 107.70  
+A: 0.80  
+B: 6.90  
+C: 6.10  
+D: 2.70  
+E: 7.70  
+F: 9.50  
+G: 107.70  
 
-**Answer:** C (6.10)
+**Answer:** C  
+**Explanation:**  
+Using the formula for futures:  
+  C - P = F - K  
+Substitute the values:  
+  6.90 - P = 100.80 - 100 = 0.80  
+Solve for P:  
+  P = 6.90 - 0.80 = 6.10
 
 ---
 
 ## Question 11
-Break down call’s intrinsic & extrinsic (F=20.43, K=19, P=1.20):
-- A. Intrinsic: 1.43, Extrinsic: 1.20, Total: 1.63
-- ...
-- E. Intrinsic: 0, Extrinsic: 2.63, Total: 2.63
-- F. ...
+**Question:**  
+Break the call option below into its intrinsic, extrinsic, and total price based on the following (0 interest, no dividends):  
+- Future price = 20.43  
+- Strike = 19  
+- Put price = 1.20  
+- Call price = ???  
 
-**Correct breakdown:** Intrinsic = 1.43, Extrinsic = 1.20, Total = 2.63  
-*(Likely a typo in the multiple-choice list; no exact match except for the sum 2.63.)*
+A: Intrinsic: 1.43, Extrinsic: 1.20, Total: 1.63  
+B: Intrinsic: 1.43, Extrinsic: 0.20, Total: 1.63  
+C: Intrinsic: 2.60, Extrinsic: 1.20, Total: 3.80  
+D: Intrinsic: 0, Extrinsic: 1.20, Total: 1.20  
+E: Intrinsic: 0, Extrinsic: 2.63, Total: 2.63  
+F: Intrinsic: 2.63, Extrinsic: 0, Total: 2.63  
+
+**Answer:**  
+Using put-call parity for futures (with zero interest):  
+  C - P = F - K ⟹ C - 1.20 = 20.43 - 19 = 1.43  
+  Thus, C = 1.43 + 1.20 = 2.63  
+Intrinsic value = max(F - K, 0) = 20.43 - 19 = 1.43  
+Extrinsic value = Total call price - Intrinsic value = 2.63 - 1.43 = 1.20  
+
+*Note:* The provided answer choices seem to contain a typo regarding the total price in option A. The correct breakdown is:  
+- Intrinsic: 1.43  
+- Extrinsic: 1.20  
+- Total: 2.63
 
 ---
 
 ## Question 12
-Bought a 50 strike put for \$1.34, future ends 46.50. Profit?
-- A. \$0
-- B. \$1.34
-- C. \$2.16
-- D. \$2.50
-- E. \$2.66
-- F. \$3.50
-- G. \$4.50
-- H. (\$1.34) loss
+**Question:**  
+We bought a put on the 50 strike for \$1.34 and executed no other trades. At expiration the future finished at \$46.50. How much **profit** did we make?  
+A: \$0  
+B: \$1.34  
+C: \$2.16  
+D: \$2.50  
+E: \$2.66  
+F: \$3.50  
+G: \$4.50  
+H: (\$1.34) loss  
 
-**Answer:** C (\$2.16)
+**Answer:** C  
+**Explanation:**  
+Put payoff = max(K - Future price, 0) = 50 - 46.50 = 3.50  
+Profit = Payoff - Premium paid = 3.50 - 1.34 = 2.16
 
 ---
 
 ## Question 13
-Payoff diagram is constructed by which 2 trades?
-- A. buy 50 call & buy 55 call
-- B. buy 50 put & buy 55 call
-- C. ...
-- D. ...
-- E. ...
-- F. ...
+**Question:**  
+The following payoff diagram can be constructed using which of the following 2 trades?  
+A: buying the 50 strike call & buying the 55 strike call  
+B: buying the 50 strike put & buying the 55 strike call  
+C: buying the 50 strike put & buying the 55 strike put  
+D: selling the 50 strike call & selling the 55 strike call  
+E: buying the 50 strike put & selling the 55 strike put  
+F: selling the 50 strike put & selling the 50 strike put  
 
-**Likely Answer:** B (long 50 put + long 55 call = a strangle shape)
+**Answer:** B  
+**Explanation:**  
+A payoff diagram that shows minimal movement between two strikes and increasing profit outside that range is typical of a long strangle. This is constructed by buying a put at the lower strike (50) and a call at the higher strike (55).
 
 ---
 
 ## Question 14
-Seller of a call option that expires into a future must:
-- A. nothing
-- B. buy future @ market
-- C. sell future @ market
-- D. sell future @ strike
-- E. buy future @ strike
-- F. receive difference
-- G. pay difference
-- H. decide if they want to exercise
+**Question:**  
+The seller of a call option that expires into a future must do the following if the option expires in-the-money:  
+A: nothing, since it expires worthless  
+B: buy the future at the current market price  
+C: sell the future at the current market price  
+D: sell the future at the strike price  
+E: buy the future at the strike price  
+F: receive the difference in cash between the strike and the current future price  
+G: pay the difference in cash between the strike and the current future price  
+H: decide if they want to exercise the option  
 
-**Answer:** D (they must deliver/sell the future at the strike)
+**Answer:** D  
+**Explanation:**  
+When a call option on a future expires in-the-money, the option buyer will exercise the option to acquire the future at the strike price. The seller is then obligated to deliver (sell) the future at the strike price.
 
 ---
 
 ## Question 15
-Ref to options board (no labels). Which best describes?
-- A. blue shading = ITM, future has increased
-- B. blue shading = ITM, future has decreased
-- C. white shading = ITM, future has increased
-- D. white shading = ITM, future has decreased
-- E. can’t tell, need headers
+**Question:**  
+Refer to options board image shown (without column labels). Which of the following choices best describes this image?  
+A: blue shading = ITM, future has increased on the day  
+B: blue shading = ITM, future has decreased on the day  
+C: white shading = ITM, future has increased on the day  
+D: white shading = ITM, future has decreased on the day  
+E: can’t tell, need column headers  
 
-**Likely Answer:** A (commonly blue = ITM). If uncertain, E.
+**Answer:** A *(or possibly E)*  
+**Explanation:**  
+Typically, many trading platforms use blue shading to indicate in-the-money (ITM) options, and the shading is often accompanied by price change indicators (e.g., green for up, red for down). In this case, the best match given the choices is A, implying blue shading indicates ITM and the future has increased on the day. However, without explicit column headers, one could argue that E is valid if absolute certainty is required.
+
+---
+
+# End of Document
