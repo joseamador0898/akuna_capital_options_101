@@ -185,7 +185,7 @@ D: Intrinsic: 0, Extrinsic: 1.20, Total: 1.20
 E: Intrinsic: 0, Extrinsic: 2.63, Total: 2.63  
 F: Intrinsic: 2.63, Extrinsic: 0, Total: 2.63  
 
-**Answer:**  
+**Answer:** B
 Using put-call parity for futures (with zero interest):  
   C - P = F - K ⟹ C - 1.20 = 20.43 - 19 = 1.43  
   Thus, C = 1.43 + 1.20 = 2.63  
