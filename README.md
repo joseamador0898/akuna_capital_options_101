@@ -36,7 +36,7 @@ A call option buyer’s profit is theoretically unlimited if the underlying pric
 A straddle is made up of:  
 A: a call minus a future  
 B: a call minus a call on a higher strike  
-C: a strike plus a put on the same strike  
+C: a call plus a put on the same strike  
 D: a call on a strike minus a put on that same strike  
 E: one call strike minus 2 calls on the next strike plus a call on the 3rd strike  
 F: a lower strike call plus a higher strike put  
