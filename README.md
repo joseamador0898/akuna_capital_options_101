@@ -1,5 +1,4 @@
 # Quiz 2
-# Options Questions – Transcription & Solutions
 
 ## Question 1
 **Question:**  
