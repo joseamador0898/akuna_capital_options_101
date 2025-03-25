@@ -1,7 +1,6 @@
 # Quiz 2
 
 ## Question 1
-**Question:**  
 A put option on a future is a contract that:  
 A: gives the option owner the right to buy the future at the strike price.  
 B: pays out the difference between the strike and the current futures price.  
