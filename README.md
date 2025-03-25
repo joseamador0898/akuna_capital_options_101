@@ -179,7 +179,7 @@ Break the call option below into its intrinsic, extrinsic, and total price based
 - Call price = ???  
 
 A: Intrinsic: 1.43, Extrinsic: 1.20, Total: 1.63  
-B: Intrinsic: 1.43, Extrinsic: 0.20, Total: 1.63  
+B: Intrinsic: 1.43, Extrinsic: 1.20, Total: 2.63  
 C: Intrinsic: 2.60, Extrinsic: 1.20, Total: 3.80  
 D: Intrinsic: 0, Extrinsic: 1.20, Total: 1.20  
 E: Intrinsic: 0, Extrinsic: 2.63, Total: 2.63  
@@ -191,11 +191,6 @@ Using put-call parity for futures (with zero interest):
   Thus, C = 1.43 + 1.20 = 2.63  
 Intrinsic value = max(F - K, 0) = 20.43 - 19 = 1.43  
 Extrinsic value = Total call price - Intrinsic value = 2.63 - 1.43 = 1.20  
-
-*Note:* The provided answer choices seem to contain a typo regarding the total price in option A. The correct breakdown is:  
-- Intrinsic: 1.43  
-- Extrinsic: 1.20  
-- Total: 2.63
 
 ---
 
