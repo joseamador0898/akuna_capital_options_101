@@ -212,19 +212,10 @@ Put payoff = max(K - Future price, 0) = 50 - 46.50 = 3.50
 Profit = Payoff - Premium paid = 3.50 - 1.34 = 2.16
 
 ---
+## Question 13 
 ![image](https://github.com/user-attachments/assets/5eb02f05-dc78-493f-a2d0-f1af4c29222b)
 
-## Question 13
-**Question:**  
-The following payoff diagram can be constructed using which of the following 2 trades?  
-A: buying the 50 strike call & buying the 55 strike call  
-B: buying the 50 strike put & buying the 55 strike call  
-C: buying the 50 strike put & buying the 55 strike put  
-D: selling the 50 strike call & selling the 55 strike call  
-E: buying the 50 strike put & selling the 55 strike put  
-F: selling the 55 strike put & buying the 50 strike put  
-
-**Answer:** B  
+**Answer:** F  
 **Explanation:**  
 This combination creates exactly the payoff diagram shown because:
 
