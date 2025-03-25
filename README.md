@@ -254,7 +254,7 @@ C: white shading = ITM, future has increased on the day
 D: white shading = ITM, future has decreased on the day  
 E: can’t tell, need column headers  
 
-**Answer:** A *(or possibly E)*  
+**Answer:** A 
 **Explanation:**  
 Typically, many trading platforms use blue shading to indicate in-the-money (ITM) options, and the shading is often accompanied by price change indicators (e.g., green for up, red for down). In this case, the best match given the choices is A, implying blue shading indicates ITM and the future has increased on the day. However, without explicit column headers, one could argue that E is valid if absolute certainty is required.
 
