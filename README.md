@@ -212,6 +212,7 @@ Put payoff = max(K - Future price, 0) = 50 - 46.50 = 3.50
 Profit = Payoff - Premium paid = 3.50 - 1.34 = 2.16
 
 ---
+![image](https://github.com/user-attachments/assets/5eb02f05-dc78-493f-a2d0-f1af4c29222b)
 
 ## Question 13
 **Question:**  
@@ -221,11 +222,17 @@ B: buying the 50 strike put & buying the 55 strike call
 C: buying the 50 strike put & buying the 55 strike put  
 D: selling the 50 strike call & selling the 55 strike call  
 E: buying the 50 strike put & selling the 55 strike put  
-F: selling the 50 strike put & selling the 50 strike put  
+F: selling the 55 strike put & buying the 50 strike put  
 
 **Answer:** B  
 **Explanation:**  
-A payoff diagram that shows minimal movement between two strikes and increasing profit outside that range is typical of a long strangle. This is constructed by buying a put at the lower strike (50) and a call at the higher strike (55).
+This combination creates exactly the payoff diagram shown because:
+
+Below 50: Both puts are in-the-money, creating a flat maximum loss (the 50 put loses more value than the premium received from selling the 55 put)
+
+Between 50-55: The 50 put moves out-of-the-money (worthless) while the 55 put gradually loses value as price increases, creating a linear increase in profit
+
+Above 55: Both puts expire worthless, leaving the trader with the maximum profit (net premium received)
 
 ---
 
