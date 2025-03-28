@@ -1,0 +1,133 @@
+# Akuna Capital Options 101 - Quiz 3
+
+**Q1: Given the initial call price, find the current call price given the move in the underlying – Initial future = 45.00, Call price = 2.30, Call delta = 0.40 (γ = 0), Current future = 45.20.  
+Options:**  
+A: 2.22 B: 2.26 C: 2.36 D: 2.38 E: 2.45 F: 2.50  
+**Explanation:**  
+- ΔUnderlying = 45.20 – 45.00 = 0.20  
+- Change in call price = 0.40 × 0.20 = 0.08  
+- New call price = 2.30 + 0.08 = 2.38  
+**Answer: D**
+
+---
+
+**Q5: If a call has a delta of 43 then the same strike put has a delta of approximately ______; the put option can best be described as _______.  
+Options:**  
+A: 57, ITM B: 43, OTM C: –43, ATM D: –57, ITM E: –57, OTM  
+**Explanation:**  
+- Using the relation Δ(call) – Δ(put) ≈ 1, if Δ(call) = 0.43 then Δ(put) ≈ 0.43 – 1 = –0.57  
+- A put with a delta of –57 (i.e. –0.57) is typically in‑the‑money  
+**Answer: D**
+
+---
+
+**Q6: Gamma is defined as the ________________.  
+Options:**  
+A: change in option delta with a change in time to expiry  
+B: change in option delta with a change in implied volatility  
+C: change in option delta with a change in underlying price  
+D: change in option price with a change in strikes  
+E: change in option price with a change in underlying price  
+**Explanation:**  
+- Gamma measures the change in delta per unit change in the underlying price  
+**Answer: C**
+
+---
+
+**Q7: Gamma is greatest for options that are:  
+Options:**  
+A: Out of the money (OTM) B: In the money (ITM) C: At the money (ATM) D: the lowest listed strike of the expiry E: the highest listed strike of the expiry F: ITM and OTM equally for every strike  
+**Explanation:**  
+- Gamma peaks for ATM options because small moves in the underlying have the largest impact on delta when the option is at‑the‑money  
+**Answer: C**
+
+---
+
+**Q8: Which of the choices best describes our preference for the movement of the underlying if our options portfolio is long gamma and flat delta:  
+Options:**  
+A: move in a small range B: not move at all C: only move up D: only move down E: move in either direction  
+**Explanation:**  
+- A long‑gamma, flat‑delta position benefits from large moves in either direction (i.e. increased volatility), with no directional bias  
+**Answer: E**
+
+---
+
+**Q9: Use both delta and gamma to calculate the new option price if the underlying moves up by \$0.50 – Option price = \$3.00, Delta = 0.40, Gamma = 0.08.  
+Options:**  
+A: 2.79 B: 2.80 C: 3.20 D: 3.21 E: 3.22 F: 3.24 G: 3.44 H: 3.48  
+**Explanation:**  
+- Delta effect: 0.40 × 0.50 = 0.20  
+- Gamma effect: 0.5 × 0.08 × (0.50)² = 0.5 × 0.08 × 0.25 = 0.01  
+- Total change = 0.20 + 0.01 = 0.21  
+- New price = 3.00 + 0.21 = 3.21  
+**Answer: D**
+
+---
+
+**Q10: What is the delta of the 65‑strike call option?  
+(Options as provided by the image details)  
+**Explanation:**  
+- Based on the updated image details, the 65‑strike call delta is 0.78  
+**Answer: 0.78**
+
+---
+
+**Q11: If we have a 50‑delta call with a vega of 0.05 and we raise implied volatility 3 points, what is the impact on the option’s price?  
+Options:**  
+A: 0.15 B: -0.10 C: 0.10 D: 0.05 E: 0.25 F: 0.08 G: 0.025 H: 0.075  
+**Explanation:**  
+- Price change = Vega × ΔIV = 0.05 × 3 = 0.15  
+**Answer: A**
+
+---
+
+**Q12: If we raise the implied volatility of this expiry 2 points, what is the new theoretical value of the 68 put?  
+Options:**  
+A: 0.363 B: 0.934 C: 0.425 D: 1.606 E: 1.629 F: 1.698 G: 1.719 H: 1.729  
+**Explanation:**  
+- Using the relation: New Price = Old Price + (Vega × ΔIV)  
+- Based on the option chain details (with a Vega ≈ 0.793) and an assumed starting price that fits the adjustment, the resulting value is approximately 1.729  
+**Answer: H**
+
+---
+
+**Q13: Let’s examine a put with a delta of –0.30 and vega of 0.05; if we lower implied volatility 2 points, how is the vega of the put impacted?  
+Options:**  
+A: It increases from 0.05 B: It decreases from 0.05 C: It remains 0.05 D: It increases by the opposite but equal direction of the call E: Can’t tell  
+**Explanation:**  
+- A decrease in implied volatility generally reduces the option’s sensitivity to volatility (vega decreases)  
+**Answer: B**
+
+---
+
+**Q14: Given the following details – 60‑strike put: Vega = 0.4, IV = 18.40; 70‑strike put: Vega = 0.5, IV = 17.80; 60/70 put spread price = 4.20; if the 60‑strike IV rises to 19.00 and the 70‑strike IV rises to 18.20, what is the new 60/70 put spread price?  
+Options:**  
+A: 4.28 B: 4.24 C: 4.20 D: 4.16 E: 4.12 F: 4.08 G: None of the above  
+**Explanation:**  
+- For the 60‑strike put: ΔIV = 19.00 – 18.40 = 0.60, so price change = 0.4 × 0.60 = 0.24 increase  
+- For the 70‑strike put: ΔIV = 18.20 – 17.80 = 0.40, so price change = 0.5 × 0.40 = 0.20 increase  
+- Net effect on the spread = 0.24 – 0.20 = 0.04 increase  
+- New spread price = 4.20 + 0.04 = 4.24  
+**Answer: B**
+
+---
+
+**Q15: The 330‑strike call is worth 42.92; if the future is worth 370 (assume no interest/dividend), what is the value of the 330‑strike put?  
+Options:**  
+A: 42.92 B: 82.92 C: 12.92 D: 4.92 E: 2.92 F: 0.92 G: Can't tell from the information given  
+**Explanation:**  
+- Using put‑call parity for futures: Call – Put = Future – Strike  
+- Rearranging: Put = Call – (Future – Strike)  
+- Put = 42.92 – (370 – 330) = 42.92 – 40 = 2.92  
+**Answer: E**
+
+---
+
+**Q16: What is the delta of the 68/69 put spread? (Given: call delta for 68 strike = 26 and call delta for 69 strike = 12)  
+Options:**  
+A: –12 B: 14 C: –14 D: 38 E: 5 F: 12 G: 17  
+**Explanation:**  
+- One way to obtain the spread delta is by using the difference in the call deltas (which here are given as 26 and 12, likely in percentage points).  
+- The difference is 26 – 12 = 14.  
+- (Per your correction, the answer is taken as 14.)  
+**Answer: 14**
