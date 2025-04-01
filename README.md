@@ -1,6 +1,5 @@
 # Akuna Capital Options 101 
 
-![](https://api.visitorbadge.io/api/VisitorHit?user=joseamador0898&repo=akuna_capital_options_101&countColor=%329f9c)
 
 # Quiz 2
 
